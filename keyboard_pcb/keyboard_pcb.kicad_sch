@@ -2158,6 +2158,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:VCC"
 			(power)
 			(pin_numbers hide)
@@ -2464,6 +2560,12 @@
 				)
 			)
 		)
+	)
+	(junction
+		(at 332.74 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0067cc2b-7abf-4e44-9911-193daae64143")
 	)
 	(junction
 		(at 67.31 123.19)
@@ -2838,6 +2940,12 @@
 		(uuid "650afb4e-f140-4d48-8766-a6e852d13ac6")
 	)
 	(junction
+		(at 358.14 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66b1e537-9979-48d4-a007-5b90f2806e66")
+	)
+	(junction
 		(at 115.57 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2896,6 +3004,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ba9cd12-621e-4f2e-8926-d14e631dc25d")
+	)
+	(junction
+		(at 340.36 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7da3f96d-14fb-47e8-b0c7-fd0ee3de6660")
 	)
 	(junction
 		(at 143.51 66.04)
@@ -2968,6 +3082,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fe7da6c-c17c-49ac-b502-c11046e6c932")
+	)
+	(junction
+		(at 332.74 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95c44c72-cc7e-4977-b0ff-d3931ab1be7f")
 	)
 	(junction
 		(at 295.91 66.04)
@@ -3070,12 +3190,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2395fad-aee9-4b48-b8f4-b212fd03b04e")
-	)
-	(junction
-		(at 328.93 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2a7cb03-d335-4514-af2d-3d7a6e152b57")
 	)
 	(junction
 		(at 219.71 123.19)
@@ -3467,6 +3581,30 @@
 		(color 0 0 0 0)
 		(uuid "ffe03600-6caf-4309-9c0e-77b62c3ca939")
 	)
+	(no_connect
+		(at 171.45 219.71)
+		(uuid "6e9e3881-ffa2-4d3d-bab7-c0a7b78752a5")
+	)
+	(no_connect
+		(at 323.85 195.58)
+		(uuid "782d8325-99eb-4643-9d6d-6f6f11bb3d66")
+	)
+	(no_connect
+		(at 171.45 232.41)
+		(uuid "8faf81ac-e4fb-4a3d-a2ee-0892a038c6b5")
+	)
+	(no_connect
+		(at 140.97 191.77)
+		(uuid "d7689ffb-08e1-4b86-9363-e26f96e39d4b")
+	)
+	(no_connect
+		(at 171.45 194.31)
+		(uuid "ebec6a29-d729-4a59-b02f-091c025ab898")
+	)
+	(no_connect
+		(at 323.85 205.74)
+		(uuid "f4ad881b-7a6d-4642-a9c8-0ceeacf52130")
+	)
 	(wire
 		(pts
 			(xy 300.99 73.66) (xy 300.99 130.81)
@@ -3676,6 +3814,16 @@
 			(type default)
 		)
 		(uuid "17513575-39cc-4347-ad6b-3b5c4c173eb8")
+	)
+	(wire
+		(pts
+			(xy 340.36 198.12) (xy 345.44 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19dce030-fd11-4e3e-9dd0-8fa3f1341052")
 	)
 	(wire
 		(pts
@@ -4056,16 +4204,6 @@
 			(type default)
 		)
 		(uuid "33023498-efb6-47e8-9548-23b969e10d2f")
-	)
-	(wire
-		(pts
-			(xy 328.93 198.12) (xy 335.28 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34e01673-02a2-4423-b867-f70889d87441")
 	)
 	(wire
 		(pts
@@ -4779,7 +4917,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 198.12) (xy 328.93 198.12)
+			(xy 323.85 198.12) (xy 332.74 198.12)
 		)
 		(stroke
 			(width 0)
@@ -5349,7 +5487,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 208.28) (xy 327.66 208.28)
+			(xy 323.85 208.28) (xy 332.74 208.28)
 		)
 		(stroke
 			(width 0)
@@ -5469,7 +5607,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 198.12) (xy 350.52 198.12)
+			(xy 350.52 198.12) (xy 358.14 198.12)
 		)
 		(stroke
 			(width 0)
@@ -5929,6 +6067,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 208.28) (xy 340.36 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc43a425-bc3d-4a6c-89f2-59a476ceb1fd")
+	)
+	(wire
+		(pts
 			(xy 276.86 123.19) (xy 314.96 123.19)
 		)
 		(stroke
@@ -6229,6 +6377,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 198.12) (xy 365.76 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e030d085-3b18-4a3f-8e43-dd21bb0cd95e")
+	)
+	(wire
+		(pts
 			(xy 353.06 85.09) (xy 372.11 85.09)
 		)
 		(stroke
@@ -6396,6 +6554,16 @@
 			(type default)
 		)
 		(uuid "ee0b2259-dd98-406b-9f9a-be684bed40e2")
+	)
+	(wire
+		(pts
+			(xy 332.74 198.12) (xy 340.36 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeab2e8c-162d-4333-bf7a-01e66a44f898")
 	)
 	(wire
 		(pts
@@ -6577,6 +6745,94 @@
 		)
 		(uuid "ff586f40-af35-42cd-84e7-41aa45ba5f98")
 	)
+	(global_label "ROW4"
+		(shape input)
+		(at 171.45 240.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02c56ab0-d986-4ec0-b959-7a9d3ec4bf15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.6966 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL14"
+		(shape input)
+		(at 171.45 209.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "068a8f6d-8cb0-4309-b388-8fafc537b387")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.4828 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW5"
+		(shape input)
+		(at 171.45 237.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a1d0efb-4465-4340-9c0f-198d89e7fca8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.6966 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL7"
+		(shape input)
+		(at 171.45 199.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16fad535-5578-440f-b037-abdedd9f543a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.2733 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL14"
 		(shape input)
 		(at 339.09 27.94 90)
@@ -6687,6 +6943,50 @@
 			)
 		)
 	)
+	(global_label "ROW0"
+		(shape input)
+		(at 171.45 250.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c392d50-d1f2-4ad1-880a-a9c182492dfd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.6966 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL10"
+		(shape input)
+		(at 171.45 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47820200-6423-43ab-bd43-47e2064dd562")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.4828 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL11"
 		(shape input)
 		(at 281.94 27.94 90)
@@ -6700,6 +7000,28 @@
 		(uuid "4dc55e42-6e36-42ee-8e3d-9fc0b5cdf215")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 281.94 18.9072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL8"
+		(shape input)
+		(at 171.45 201.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50170e43-8a41-4da9-9ee9-9c1e9fe2cd62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.2733 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6753,6 +7075,28 @@
 			)
 		)
 	)
+	(global_label "COL15"
+		(shape input)
+		(at 171.45 212.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67b09c34-0b86-4c7b-a508-0f38bd25157e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.4828 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ROW3"
 		(shape input)
 		(at 53.34 104.14 180)
@@ -6771,6 +7115,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL11"
+		(shape input)
+		(at 171.45 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6bcfbadb-191a-4de2-bfbc-80c342c69a93")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.4828 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6797,6 +7163,28 @@
 			)
 		)
 	)
+	(global_label "COL9"
+		(shape input)
+		(at 171.45 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "752f823a-bc23-4dbe-b582-e002622fa6ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.2733 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ROW1"
 		(shape input)
 		(at 53.34 66.04 180)
@@ -6815,6 +7203,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 171.45 242.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79a0ff7c-9bd1-4efb-922a-53bee438f1b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.6966 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 171.45 247.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8bbcebf0-8b74-416f-88a9-a40b6ffc1838")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.6966 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6885,6 +7317,28 @@
 			)
 		)
 	)
+	(global_label "COL12"
+		(shape input)
+		(at 171.45 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92bc8cfa-c068-4f40-8ada-76c506103434")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.4828 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ROW2"
 		(shape input)
 		(at 53.34 85.09 180)
@@ -6920,6 +7374,94 @@
 		(uuid "9d3b3913-4ce2-4c38-8415-2cf19e7945dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 167.64 20.1167 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 171.45 224.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a31a2c10-92d1-4ebb-bdff-0d9cdbdae099")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.2733 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 171.45 222.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a99d85e2-007e-4b50-8a1c-33d984d8cb05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.2733 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 171.45 189.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab12f4b2-121d-4c35-afee-8b45a3f99fcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.2733 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW2"
+		(shape input)
+		(at 171.45 245.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac16e5d3-3f1c-4a91-9c5d-6347f93c30d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.6966 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7017,6 +7559,28 @@
 			)
 		)
 	)
+	(global_label "COL13"
+		(shape input)
+		(at 171.45 207.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c50ec256-e922-4445-98b6-fbd23ba8319d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.4828 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL9"
 		(shape input)
 		(at 243.84 27.94 90)
@@ -7039,6 +7603,50 @@
 			)
 		)
 	)
+	(global_label "COL3"
+		(shape input)
+		(at 171.45 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf5745b6-080d-4fa7-88d2-110113e00aaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.2733 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL16"
+		(shape input)
+		(at 171.45 214.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d50fc183-c5b1-425d-9b77-251b9d0f61b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.4828 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL2"
 		(shape input)
 		(at 110.49 27.94 90)
@@ -7052,6 +7660,28 @@
 		(uuid "d8016c61-4a0d-407b-8516-b3acf3712302")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.49 20.1167 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 171.45 217.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0967403-2fba-4725-ab42-b466dec0772d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.2733 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7127,6 +7757,28 @@
 			)
 		)
 	)
+	(global_label "COL6"
+		(shape input)
+		(at 171.45 191.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eaee803a-9104-431c-82c8-eae9e984f1c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.2733 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D-"
 		(shape input)
 		(at 323.85 200.66 0)
@@ -7181,7 +7833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "036300a4-612e-42cd-8001-eae145a2b9a8")
-		(property "Reference" "D77"
+		(property "Reference" "D49"
 			(at 355.6 81.2799 90)
 			(effects
 				(font
@@ -7253,7 +7905,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D77")
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -7269,7 +7921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04b2cbc0-911c-4661-91bf-02a64086e10f")
-		(property "Reference" "LWIN"
+		(property "Reference" "SW78"
 			(at 88.5252 125.73 0)
 			(effects
 				(font
@@ -7277,7 +7929,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "LWIN"
 			(at 88.5252 128.27 0)
 			(effects
 				(font
@@ -7321,7 +7973,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "LWIN")
+					(reference "SW78")
 					(unit 1)
 				)
 			)
@@ -7337,7 +7989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04b590e9-a251-40c7-9690-5e49ad6ab763")
-		(property "Reference" "D75"
+		(property "Reference" "D85"
 			(at 336.55 138.4299 90)
 			(effects
 				(font
@@ -7409,7 +8061,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D75")
+					(reference "D85")
 					(unit 1)
 				)
 			)
@@ -7425,7 +8077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "058ea7dd-2a8c-4878-bee7-496ac286bad0")
-		(property "Reference" "D54"
+		(property "Reference" "D73"
 			(at 260.35 119.3799 90)
 			(effects
 				(font
@@ -7497,7 +8149,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D54")
+					(reference "D73")
 					(unit 1)
 				)
 			)
@@ -7513,7 +8165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "073fce49-6f00-4f23-98bc-dc166c784f9c")
-		(property "Reference" "D56"
+		(property "Reference" "D28"
 			(at 279.4 62.2299 90)
 			(effects
 				(font
@@ -7585,7 +8237,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D56")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -7601,7 +8253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0747986a-884d-464f-a504-cb6ca5d08039")
-		(property "Reference" "D71"
+		(property "Reference" "D31"
 			(at 336.55 62.2299 90)
 			(effects
 				(font
@@ -7673,7 +8325,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D71")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -7689,7 +8341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "086042da-73c2-440d-8e13-16a0517c97d5")
-		(property "Reference" "D11"
+		(property "Reference" "D19"
 			(at 107.95 62.2299 90)
 			(effects
 				(font
@@ -7761,7 +8413,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D11")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -7777,7 +8429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "091f7f54-ac99-488b-8b6c-9c343348c612")
-		(property "Reference" "F"
+		(property "Reference" "SW55"
 			(at 145.6752 87.63 0)
 			(effects
 				(font
@@ -7785,7 +8437,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "F"
 			(at 145.6752 90.17 0)
 			(effects
 				(font
@@ -7829,7 +8481,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "F")
+					(reference "SW55")
 					(unit 1)
 				)
 			)
@@ -7845,7 +8497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0958afd2-16ac-4bbb-b780-3ddb023ed146")
-		(property "Reference" "F8"
+		(property "Reference" "SW9"
 			(at 240.9252 30.48 0)
 			(effects
 				(font
@@ -7853,7 +8505,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "F8"
 			(at 240.9252 33.02 0)
 			(effects
 				(font
@@ -7897,7 +8549,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "F8")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -7913,7 +8565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e44b280-cc76-4be3-b393-70422a9c01a3")
-		(property "Reference" "N8"
+		(property "Reference" "SW25"
 			(at 221.8752 49.53 0)
 			(effects
 				(font
@@ -7921,7 +8573,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "#8"
 			(at 221.8752 52.07 0)
 			(effects
 				(font
@@ -7965,7 +8617,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "N8")
+					(reference "SW25")
 					(unit 1)
 				)
 			)
@@ -7981,7 +8633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f7c0965-d7c3-455f-87f5-1d52818df6af")
-		(property "Reference" "D102"
+		(property "Reference" "D16"
 			(at 374.65 43.1799 90)
 			(effects
 				(font
@@ -8053,7 +8705,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D102")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -8069,7 +8721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10a01e83-cb92-43bc-8697-aba2d09a6384")
-		(property "Reference" "N2"
+		(property "Reference" "SW19"
 			(at 107.5752 49.53 0)
 			(effects
 				(font
@@ -8077,7 +8729,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "#2"
 			(at 107.5752 52.07 0)
 			(effects
 				(font
@@ -8121,7 +8773,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "N2")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -8137,7 +8789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11660821-4a6a-47fd-93eb-7bd98d8ba0c3")
-		(property "Reference" "D79"
+		(property "Reference" "D76"
 			(at 355.6 119.3799 90)
 			(effects
 				(font
@@ -8209,7 +8861,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D79")
+					(reference "D76")
 					(unit 1)
 				)
 			)
@@ -8422,7 +9074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12b5a8e1-befe-41b9-b927-c6715732edd4")
-		(property "Reference" "D8"
+		(property "Reference" "D52"
 			(at 88.9 100.3299 90)
 			(effects
 				(font
@@ -8494,7 +9146,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D8")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -8510,7 +9162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "162d9ce4-cbbb-4f81-8fac-28db90499399")
-		(property "Reference" "D"
+		(property "Reference" "SW54"
 			(at 126.6252 87.63 0)
 			(effects
 				(font
@@ -8518,7 +9170,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "D"
 			(at 126.6252 90.17 0)
 			(effects
 				(font
@@ -8562,7 +9214,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D")
+					(reference "SW54")
 					(unit 1)
 				)
 			)
@@ -8578,7 +9230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17419e23-28d2-4c1a-804b-0df7b2463856")
-		(property "Reference" "D48"
+		(property "Reference" "D60"
 			(at 241.3 100.3299 90)
 			(effects
 				(font
@@ -8650,7 +9302,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D48")
+					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -8666,7 +9318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18e0ce5b-c500-4341-b011-a029764a8ddb")
-		(property "Reference" "["
+		(property "Reference" "SW45"
 			(at 279.0252 68.58 0)
 			(effects
 				(font
@@ -8674,7 +9326,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "["
 			(at 279.0252 71.12 0)
 			(effects
 				(font
@@ -8718,7 +9370,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "[")
+					(reference "SW45")
 					(unit 1)
 				)
 			)
@@ -8734,7 +9386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "190da0eb-253c-4345-b5e3-5d42d5cb0d42")
-		(property "Reference" "BKSPC"
+		(property "Reference" "SW30"
 			(at 317.1252 49.53 0)
 			(effects
 				(font
@@ -8742,7 +9394,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "BKSPC"
 			(at 317.1252 52.07 0)
 			(effects
 				(font
@@ -8786,7 +9438,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "BKSPC")
+					(reference "SW30")
 					(unit 1)
 				)
 			)
@@ -8802,7 +9454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19d9b163-dfc8-4498-b74e-a6c84917e34e")
-		(property "Reference" "D68"
+		(property "Reference" "D63"
 			(at 317.5 100.3299 90)
 			(effects
 				(font
@@ -8874,7 +9526,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D68")
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -8890,7 +9542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a75d5b4-e7f3-450e-a21c-c04d3d439868")
-		(property "Reference" "G"
+		(property "Reference" "SW56"
 			(at 164.7252 87.63 0)
 			(effects
 				(font
@@ -8898,7 +9550,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "G"
 			(at 164.7252 90.17 0)
 			(effects
 				(font
@@ -8942,7 +9594,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "G")
+					(reference "SW56")
 					(unit 1)
 				)
 			)
@@ -8958,7 +9610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e944fe7-550f-4025-9881-05df6d18ac3b")
-		(property "Reference" "D101"
+		(property "Reference" "D15"
 			(at 355.6 43.1799 90)
 			(effects
 				(font
@@ -9030,7 +9682,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D101")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -9046,7 +9698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20ad483d-a8d7-49b5-b3f3-c6d8b6cf7ba7")
-		(property "Reference" "D52"
+		(property "Reference" "D44"
 			(at 260.35 81.2799 90)
 			(effects
 				(font
@@ -9118,7 +9770,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D52")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -9134,7 +9786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21f67e91-4234-4876-b35a-9d9e5d72983c")
-		(property "Reference" "RALT"
+		(property "Reference" "SW81"
 			(at 259.9752 125.73 0)
 			(effects
 				(font
@@ -9142,7 +9794,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "RALT"
 			(at 259.9752 128.27 0)
 			(effects
 				(font
@@ -9186,7 +9838,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "RALT")
+					(reference "SW81")
 					(unit 1)
 				)
 			)
@@ -9290,7 +9942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22e855bf-36d6-4e93-b0d9-3908309cf669")
-		(property "Reference" "K"
+		(property "Reference" "SW59"
 			(at 221.8752 87.63 0)
 			(effects
 				(font
@@ -9298,7 +9950,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "K"
 			(at 221.8752 90.17 0)
 			(effects
 				(font
@@ -9342,7 +9994,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "K")
+					(reference "SW59")
 					(unit 1)
 				)
 			)
@@ -9358,7 +10010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2301dc37-f8ab-46bc-b163-67e798327d26")
-		(property "Reference" "P"
+		(property "Reference" "SW44"
 			(at 259.9752 68.58 0)
 			(effects
 				(font
@@ -9366,7 +10018,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "P"
 			(at 259.9752 71.12 0)
 			(effects
 				(font
@@ -9410,7 +10062,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "P")
+					(reference "SW44")
 					(unit 1)
 				)
 			)
@@ -9426,7 +10078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23a104f6-e594-4e94-a19f-5df6db8c1781")
-		(property "Reference" "D72"
+		(property "Reference" "D48"
 			(at 336.55 81.2799 90)
 			(effects
 				(font
@@ -9498,7 +10150,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D72")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -9514,7 +10166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "240789b0-e3b3-47d0-90c4-7cf18d2cacd7")
-		(property "Reference" "D67"
+		(property "Reference" "D47"
 			(at 317.5 81.2799 90)
 			(effects
 				(font
@@ -9586,7 +10238,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D67")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -9602,7 +10254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25218a82-daf8-4474-973d-1d267ca083d5")
-		(property "Reference" "F4"
+		(property "Reference" "SW5"
 			(at 164.7252 30.48 0)
 			(effects
 				(font
@@ -9610,7 +10262,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "F4"
 			(at 164.7252 33.02 0)
 			(effects
 				(font
@@ -9654,7 +10306,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "F4")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -9670,7 +10322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "253633a1-6ef7-41be-bbad-21c4e889ddd4")
-		(property "Reference" "D36"
+		(property "Reference" "D24"
 			(at 203.2 62.2299 90)
 			(effects
 				(font
@@ -9742,7 +10394,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D36")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -9758,7 +10410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25aaff16-c8c3-45c8-8bed-cf8ebaf2ae07")
-		(property "Reference" "F11"
+		(property "Reference" "SW12"
 			(at 298.0752 30.48 0)
 			(effects
 				(font
@@ -9766,7 +10418,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "F11"
 			(at 298.0752 33.02 0)
 			(effects
 				(font
@@ -9810,7 +10462,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "F11")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -9826,7 +10478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26277966-caac-48bc-9a20-f5a869ca407c")
-		(property "Reference" "D85"
+		(property "Reference" "D87"
 			(at 374.65 138.4299 90)
 			(effects
 				(font
@@ -9898,7 +10550,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D85")
+					(reference "D87")
 					(unit 1)
 				)
 			)
@@ -9914,7 +10566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "288a4626-a2c8-4fbd-b5d4-6e2c8263660a")
-		(property "Reference" "D7"
+		(property "Reference" "D35"
 			(at 88.9 81.2799 90)
 			(effects
 				(font
@@ -9986,7 +10638,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D7")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -10002,7 +10654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a2c2f0b-ab61-4b4f-bd3c-e049fc4dd918")
-		(property "Reference" "B"
+		(property "Reference" "SW69"
 			(at 183.7752 106.68 0)
 			(effects
 				(font
@@ -10010,7 +10662,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "B"
 			(at 183.7752 109.22 0)
 			(effects
 				(font
@@ -10054,7 +10706,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "B")
+					(reference "SW69")
 					(unit 1)
 				)
 			)
@@ -10070,7 +10722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b60da2d-8927-4f8d-933a-2f0bb7b7f070")
-		(property "Reference" "D82"
+		(property "Reference" "D50"
 			(at 374.65 81.2799 90)
 			(effects
 				(font
@@ -10142,7 +10794,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D82")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -10158,7 +10810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b6a1a1d-dcac-4363-9c8d-a1689bd64c8b")
-		(property "Reference" "D93"
+		(property "Reference" "D7"
 			(at 203.2 43.1799 90)
 			(effects
 				(font
@@ -10230,7 +10882,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D93")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -10246,7 +10898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d627db6-3050-4792-ac56-3018446ef440")
-		(property "Reference" "INS"
+		(property "Reference" "SW31"
 			(at 336.1752 49.53 0)
 			(effects
 				(font
@@ -10254,7 +10906,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "INS"
 			(at 336.1752 52.07 0)
 			(effects
 				(font
@@ -10298,7 +10950,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "INS")
+					(reference "SW31")
 					(unit 1)
 				)
 			)
@@ -10314,7 +10966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f6516a9-97fb-44dd-925a-aa65a38ff945")
-		(property "Reference" "D43"
+		(property "Reference" "D59"
 			(at 222.25 100.3299 90)
 			(effects
 				(font
@@ -10386,7 +11038,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D43")
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -10402,7 +11054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "305e8939-a028-4c1e-9749-a54a92f5fc57")
-		(property "Reference" "D29"
+		(property "Reference" "D68"
 			(at 165.1 119.3799 90)
 			(effects
 				(font
@@ -10474,7 +11126,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D29")
+					(reference "D68")
 					(unit 1)
 				)
 			)
@@ -10490,7 +11142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30bf4783-fac0-40bd-978f-2c4021cf78aa")
-		(property "Reference" "D13"
+		(property "Reference" "D53"
 			(at 107.95 100.3299 90)
 			(effects
 				(font
@@ -10562,7 +11214,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D13")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -10578,7 +11230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3172a3ce-d525-4e4e-8958-309b24b83c2e")
-		(property "Reference" "'"
+		(property "Reference" "SW62"
 			(at 279.0252 87.63 0)
 			(effects
 				(font
@@ -10586,7 +11238,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "'"
 			(at 279.0252 90.17 0)
 			(effects
 				(font
@@ -10630,7 +11282,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "'")
+					(reference "SW62")
 					(unit 1)
 				)
 			)
@@ -10646,7 +11298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "336c556b-f579-4ddf-87da-74a02b461ae2")
-		(property "Reference" "N7"
+		(property "Reference" "SW24"
 			(at 202.8252 49.53 0)
 			(effects
 				(font
@@ -10654,7 +11306,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "#7"
 			(at 202.8252 52.07 0)
 			(effects
 				(font
@@ -10698,7 +11350,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "N7")
+					(reference "SW24")
 					(unit 1)
 				)
 			)
@@ -10714,7 +11366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3395e990-43d0-493f-aa39-9b99f1f6f254")
-		(property "Reference" "D44"
+		(property "Reference" "D71"
 			(at 222.25 119.3799 90)
 			(effects
 				(font
@@ -10786,7 +11438,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D44")
+					(reference "D71")
 					(unit 1)
 				)
 			)
@@ -10802,7 +11454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "349d7219-68c3-49ab-a9a9-46e09244b2b7")
-		(property "Reference" "T"
+		(property "Reference" "SW39"
 			(at 164.7252 68.58 0)
 			(effects
 				(font
@@ -10810,7 +11462,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "T"
 			(at 164.7252 71.12 0)
 			(effects
 				(font
@@ -10854,7 +11506,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "T")
+					(reference "SW39")
 					(unit 1)
 				)
 			)
@@ -10936,7 +11588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "373115ab-7848-4dc0-9444-b1b1898b17e4")
-		(property "Reference" "D76"
+		(property "Reference" "D32"
 			(at 355.6 62.2299 90)
 			(effects
 				(font
@@ -11008,7 +11660,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D76")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -11024,7 +11676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3875e654-d50f-448c-b8f7-2f52f6bdd239")
-		(property "Reference" ";"
+		(property "Reference" "SW61"
 			(at 259.9752 87.63 0)
 			(effects
 				(font
@@ -11032,7 +11684,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" ";"
 			(at 259.9752 90.17 0)
 			(effects
 				(font
@@ -11076,7 +11728,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference ";")
+					(reference "SW61")
 					(unit 1)
 				)
 			)
@@ -11092,7 +11744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c6f723f-2249-45bb-85be-7a123f897c71")
-		(property "Reference" "N5"
+		(property "Reference" "SW22"
 			(at 164.7252 49.53 0)
 			(effects
 				(font
@@ -11100,7 +11752,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "#5"
 			(at 164.7252 52.07 0)
 			(effects
 				(font
@@ -11144,7 +11796,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "N5")
+					(reference "SW22")
 					(unit 1)
 				)
 			)
@@ -11226,7 +11878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3db55629-d707-41ac-a33c-1ee0490e67be")
-		(property "Reference" "D39"
+		(property "Reference" "D70"
 			(at 203.2 119.3799 90)
 			(effects
 				(font
@@ -11298,7 +11950,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D39")
+					(reference "D70")
 					(unit 1)
 				)
 			)
@@ -11314,7 +11966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3df00b99-8959-42e2-9c99-8fa0639f7711")
-		(property "Reference" "L"
+		(property "Reference" "SW60"
 			(at 240.9252 87.63 0)
 			(effects
 				(font
@@ -11322,7 +11974,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "L"
 			(at 240.9252 90.17 0)
 			(effects
 				(font
@@ -11366,7 +12018,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "L")
+					(reference "SW60")
 					(unit 1)
 				)
 			)
@@ -11382,7 +12034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f9a92d8-f428-4b92-a0a1-7d54daabe1f6")
-		(property "Reference" "TILDE"
+		(property "Reference" "SW17"
 			(at 69.4752 49.53 0)
 			(effects
 				(font
@@ -11390,7 +12042,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "`"
 			(at 69.4752 52.07 0)
 			(effects
 				(font
@@ -11434,7 +12086,7 @@
 		(instances
 			(project ""
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "TILDE")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -11450,7 +12102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40a0e712-f72a-4bec-8ffa-482a9861113b")
-		(property "Reference" "MENU"
+		(property "Reference" "SW83"
 			(at 298.0752 125.73 0)
 			(effects
 				(font
@@ -11458,7 +12110,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "MENU"
 			(at 298.0752 128.27 0)
 			(effects
 				(font
@@ -11502,7 +12154,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "MENU")
+					(reference "SW83")
 					(unit 1)
 				)
 			)
@@ -11518,7 +12170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40fbd8a0-fc1e-433d-bcd1-30b33f03abb3")
-		(property "Reference" "D19"
+		(property "Reference" "D66"
 			(at 127 119.3799 90)
 			(effects
 				(font
@@ -11590,7 +12242,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D19")
+					(reference "D66")
 					(unit 1)
 				)
 			)
@@ -11606,7 +12258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "411eb8b3-1a19-45e7-86ef-4ae36a26f009")
-		(property "Reference" "N0"
+		(property "Reference" "SW27"
 			(at 259.9752 49.53 0)
 			(effects
 				(font
@@ -11614,7 +12266,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "#0"
 			(at 259.9752 52.07 0)
 			(effects
 				(font
@@ -11658,7 +12310,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "N0")
+					(reference "SW27")
 					(unit 1)
 				)
 			)
@@ -11739,7 +12391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41a8fdef-9d2c-438c-9bd8-51f05a725eb0")
-		(property "Reference" "D18"
+		(property "Reference" "D54"
 			(at 127 100.3299 90)
 			(effects
 				(font
@@ -11811,7 +12463,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D18")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -11827,7 +12479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42db4bd4-b844-4de1-9650-71ee78ab5f75")
-		(property "Reference" "PGDN"
+		(property "Reference" "SW50"
 			(at 374.2752 68.58 0)
 			(effects
 				(font
@@ -11835,7 +12487,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "PGDN"
 			(at 374.2752 71.12 0)
 			(effects
 				(font
@@ -11879,7 +12531,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "PGDN")
+					(reference "SW50")
 					(unit 1)
 				)
 			)
@@ -11895,7 +12547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46aa4cfa-2816-4117-8288-4fa6cf064e3d")
-		(property "Reference" "D80"
+		(property "Reference" "D86"
 			(at 355.6 138.4299 90)
 			(effects
 				(font
@@ -11967,7 +12619,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D80")
+					(reference "D86")
 					(unit 1)
 				)
 			)
@@ -11983,7 +12635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46b6e6b7-1dd1-430e-adb6-a978be40967b")
-		(property "Reference" "\\"
+		(property "Reference" "SW47"
 			(at 317.1252 68.58 0)
 			(effects
 				(font
@@ -11991,7 +12643,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "\\"
 			(at 317.1252 71.12 0)
 			(effects
 				(font
@@ -12035,7 +12687,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "\\")
+					(reference "SW47")
 					(unit 1)
 				)
 			)
@@ -12051,7 +12703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "472e85d9-f87a-4fc8-a418-52e2a0e6b122")
-		(property "Reference" "D94"
+		(property "Reference" "D8"
 			(at 222.25 43.1799 90)
 			(effects
 				(font
@@ -12123,7 +12775,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D94")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -12139,7 +12791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "483b8994-bca8-456f-b1a8-eea397f47f21")
-		(property "Reference" "D27"
+		(property "Reference" "D39"
 			(at 165.1 81.2799 90)
 			(effects
 				(font
@@ -12211,7 +12863,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D27")
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -12227,7 +12879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49520e1b-75c6-4f81-9fc6-7e070b35a7af")
-		(property "Reference" "F5"
+		(property "Reference" "SW6"
 			(at 183.7752 30.48 0)
 			(effects
 				(font
@@ -12235,7 +12887,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "F5"
 			(at 183.7752 33.02 0)
 			(effects
 				(font
@@ -12279,7 +12931,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "F5")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -12295,7 +12947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4abfcecb-2442-4a6d-aed0-a3ae95bf75c7")
-		(property "Reference" "-"
+		(property "Reference" "SW28"
 			(at 279.0252 49.53 0)
 			(effects
 				(font
@@ -12303,7 +12955,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "-"
 			(at 279.0252 52.07 0)
 			(effects
 				(font
@@ -12347,7 +12999,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "-")
+					(reference "SW28")
 					(unit 1)
 				)
 			)
@@ -12451,7 +13103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c555586-3ee9-4893-8f78-a8ffe3daf5f2")
-		(property "Reference" "DOWN"
+		(property "Reference" "SW86"
 			(at 355.2252 125.73 0)
 			(effects
 				(font
@@ -12459,7 +13111,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "DOWN"
 			(at 355.2252 128.27 0)
 			(effects
 				(font
@@ -12503,7 +13155,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "DOWN")
+					(reference "SW86")
 					(unit 1)
 				)
 			)
@@ -12519,7 +13171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cdd01a4-0549-4c42-8176-51bf54cb7a90")
-		(property "Reference" "D2"
+		(property "Reference" "D34"
 			(at 69.85 81.2799 90)
 			(effects
 				(font
@@ -12591,7 +13243,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D2")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -12607,7 +13259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f47cba9-183a-41e4-83ef-871b16681177")
-		(property "Reference" "D22"
+		(property "Reference" "D38"
 			(at 146.05 81.2799 90)
 			(effects
 				(font
@@ -12679,7 +13331,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D22")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -12695,7 +13347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51db3503-5bfb-4faf-9b9d-36bb8b9a088a")
-		(property "Reference" "F6"
+		(property "Reference" "SW7"
 			(at 202.8252 30.48 0)
 			(effects
 				(font
@@ -12703,7 +13355,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "F6"
 			(at 202.8252 33.02 0)
 			(effects
 				(font
@@ -12747,7 +13399,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "F6")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -12763,7 +13415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5405e3a0-82d1-463e-b9ec-bd8c874aea11")
-		(property "Reference" "END"
+		(property "Reference" "SW49"
 			(at 355.2252 68.58 0)
 			(effects
 				(font
@@ -12771,7 +13423,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "END"
 			(at 355.2252 71.12 0)
 			(effects
 				(font
@@ -12815,7 +13467,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "END")
+					(reference "SW49")
 					(unit 1)
 				)
 			)
@@ -12962,7 +13614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "567d8b4e-6987-4184-b5be-cc2c3e97cf77")
-		(property "Reference" "]"
+		(property "Reference" "SW46"
 			(at 298.0752 68.58 0)
 			(effects
 				(font
@@ -12970,7 +13622,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "]"
 			(at 298.0752 71.12 0)
 			(effects
 				(font
@@ -13014,7 +13666,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "]")
+					(reference "SW46")
 					(unit 1)
 				)
 			)
@@ -13030,7 +13682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "599a3c77-3091-4290-a4aa-96c3d9750767")
-		(property "Reference" "TAB"
+		(property "Reference" "SW34"
 			(at 69.4752 68.58 0)
 			(effects
 				(font
@@ -13038,7 +13690,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "TAB"
 			(at 69.4752 71.12 0)
 			(effects
 				(font
@@ -13082,7 +13734,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "TAB")
+					(reference "SW34")
 					(unit 1)
 				)
 			)
@@ -13098,7 +13750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a50f5f1-39b5-4f69-a205-2bf062669ab8")
-		(property "Reference" "D97"
+		(property "Reference" "D11"
 			(at 279.4 43.1799 90)
 			(effects
 				(font
@@ -13170,7 +13822,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D97")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -13186,7 +13838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d644537-c394-4b2b-9fca-7563acaa7e9a")
-		(property "Reference" "D33"
+		(property "Reference" "D57"
 			(at 184.15 100.3299 90)
 			(effects
 				(font
@@ -13258,7 +13910,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D33")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -13354,7 +14006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fb3b764-c1d5-4e73-817f-e43a3043eae5")
-		(property "Reference" "W"
+		(property "Reference" "SW36"
 			(at 107.5752 68.58 0)
 			(effects
 				(font
@@ -13362,7 +14014,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "W"
 			(at 107.5752 71.12 0)
 			(effects
 				(font
@@ -13406,7 +14058,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "W")
+					(reference "SW36")
 					(unit 1)
 				)
 			)
@@ -13422,7 +14074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61edd528-9320-4998-9857-71f0299681a1")
-		(property "Reference" "F12"
+		(property "Reference" "SW13"
 			(at 317.1252 30.48 0)
 			(effects
 				(font
@@ -13430,7 +14082,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "F12"
 			(at 317.1252 33.02 0)
 			(effects
 				(font
@@ -13474,7 +14126,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "F12")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -13490,7 +14142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61f01c0d-85f4-44cc-b505-8cb8eceedbee")
-		(property "Reference" "D92"
+		(property "Reference" "D6"
 			(at 184.15 43.1799 90)
 			(effects
 				(font
@@ -13562,7 +14214,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D92")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -13648,7 +14300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64c5b09c-cb52-48a6-b406-8923855eb9f8")
-		(property "Reference" ","
+		(property "Reference" "SW72"
 			(at 240.9252 106.68 0)
 			(effects
 				(font
@@ -13656,7 +14308,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" ","
 			(at 240.9252 109.22 0)
 			(effects
 				(font
@@ -13700,7 +14352,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference ",")
+					(reference "SW72")
 					(unit 1)
 				)
 			)
@@ -13716,7 +14368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "664f674f-1cab-464f-9f06-fea678dcc926")
-		(property "Reference" "RSHIFT"
+		(property "Reference" "SW75"
 			(at 317.1252 106.68 0)
 			(effects
 				(font
@@ -13724,7 +14376,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "RSHIFT"
 			(at 317.1252 109.22 0)
 			(effects
 				(font
@@ -13768,7 +14420,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "RSHIFT")
+					(reference "SW75")
 					(unit 1)
 				)
 			)
@@ -13784,7 +14436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "670f3e49-02a4-498e-b039-240849c7d505")
-		(property "Reference" "UP"
+		(property "Reference" "SW76"
 			(at 355.2252 106.68 0)
 			(effects
 				(font
@@ -13792,7 +14444,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "UP"
 			(at 355.2252 109.22 0)
 			(effects
 				(font
@@ -13836,7 +14488,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "UP")
+					(reference "SW76")
 					(unit 1)
 				)
 			)
@@ -13852,7 +14504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6735e415-4c33-4f06-8552-a810d2ef8766")
-		(property "Reference" "D16"
+		(property "Reference" "D20"
 			(at 127 62.2299 90)
 			(effects
 				(font
@@ -13924,7 +14576,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D16")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -14013,7 +14665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d3741f3-d9a8-4d2c-b9d8-33ab281c4ef6")
-		(property "Reference" "D31"
+		(property "Reference" "D23"
 			(at 184.15 62.2299 90)
 			(effects
 				(font
@@ -14085,7 +14737,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D31")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -14093,7 +14745,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 337.82 198.12 270)
+		(at 347.98 198.12 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14102,7 +14754,7 @@
 		(fields_autoplaced yes)
 		(uuid "6da8a4da-3803-4612-97f4-fd562d062f89")
 		(property "Reference" "F1"
-			(at 337.82 191.77 90)
+			(at 347.98 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14110,7 +14762,7 @@
 			)
 		)
 		(property "Value" "500mA"
-			(at 337.82 194.31 90)
+			(at 347.98 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14118,7 +14770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 332.74 199.39 0)
+			(at 342.9 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14128,7 +14780,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 337.82 198.12 0)
+			(at 347.98 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14137,7 +14789,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
-			(at 337.82 198.12 0)
+			(at 347.98 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14170,7 +14822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f0f0cb9-db5f-4799-ac5d-180c290b4cde")
-		(property "Reference" "D91"
+		(property "Reference" "D5"
 			(at 165.1 43.1799 90)
 			(effects
 				(font
@@ -14242,7 +14894,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D91")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -14324,7 +14976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "705b08b5-3e56-4053-bf62-1b7406d0e88e")
-		(property "Reference" "D66"
+		(property "Reference" "D30"
 			(at 317.5 62.2299 90)
 			(effects
 				(font
@@ -14396,7 +15048,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D66")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -14412,7 +15064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "722e66fe-c838-4c02-a6f9-e12bb4ab7028")
-		(property "Reference" "D59"
+		(property "Reference" "D74"
 			(at 279.4 119.3799 90)
 			(effects
 				(font
@@ -14484,7 +15136,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D59")
+					(reference "D74")
 					(unit 1)
 				)
 			)
@@ -14500,7 +15152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73777463-8449-4739-8b52-e95fbf7fdf4a")
-		(property "Reference" "RIGHT"
+		(property "Reference" "SW87"
 			(at 374.2752 125.73 0)
 			(effects
 				(font
@@ -14508,7 +15160,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "RIGHT"
 			(at 374.2752 128.27 0)
 			(effects
 				(font
@@ -14552,7 +15204,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "RIGHT")
+					(reference "SW87")
 					(unit 1)
 				)
 			)
@@ -14568,7 +15220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74fa0b5e-2a8a-4106-9556-3fa3578b8ccd")
-		(property "Reference" "HOME"
+		(property "Reference" "SW32"
 			(at 355.2252 49.53 0)
 			(effects
 				(font
@@ -14576,7 +15228,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "HOME"
 			(at 355.2252 52.07 0)
 			(effects
 				(font
@@ -14620,7 +15272,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "HOME")
+					(reference "SW32")
 					(unit 1)
 				)
 			)
@@ -14706,7 +15358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76d4a423-841a-4de9-8351-4edc4155d69f")
-		(property "Reference" "D41"
+		(property "Reference" "D25"
 			(at 222.25 62.2299 90)
 			(effects
 				(font
@@ -14778,7 +15430,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D41")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -14786,7 +15438,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 327.66 208.28 0)
+		(at 340.36 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14795,7 +15447,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b4f7b66-e7c0-46cd-b59d-3f230a076d3f")
 		(property "Reference" "#PWR013"
-			(at 327.66 214.63 0)
+			(at 340.36 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14804,7 +15456,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 327.66 213.36 0)
+			(at 340.36 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14812,7 +15464,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 327.66 208.28 0)
+			(at 340.36 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14821,7 +15473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.66 208.28 0)
+			(at 340.36 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14830,7 +15482,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 327.66 208.28 0)
+			(at 340.36 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14860,7 +15512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7baf0417-e29a-4dc1-9873-cac7bc41d7e9")
-		(property "Reference" "D32"
+		(property "Reference" "D40"
 			(at 184.15 81.2799 90)
 			(effects
 				(font
@@ -14932,7 +15584,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D32")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -14948,7 +15600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c03ab46-b1ae-4a34-bf6f-23eab76eb36a")
-		(property "Reference" "D58"
+		(property "Reference" "D62"
 			(at 279.4 100.3299 90)
 			(effects
 				(font
@@ -15020,7 +15672,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D58")
+					(reference "D62")
 					(unit 1)
 				)
 			)
@@ -15036,7 +15688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dc1f00d-2051-490f-8390-63ce82733d29")
-		(property "Reference" "D46"
+		(property "Reference" "D26"
 			(at 241.3 62.2299 90)
 			(effects
 				(font
@@ -15108,7 +15760,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D46")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -15124,7 +15776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ef15fd3-2e31-4082-a7ff-43800584d6a5")
-		(property "Reference" "PRNTSC"
+		(property "Reference" "SW14"
 			(at 336.1752 30.48 0)
 			(effects
 				(font
@@ -15132,7 +15784,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "PRNTSC"
 			(at 336.1752 33.02 0)
 			(effects
 				(font
@@ -15176,7 +15828,73 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "PRNTSC")
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 332.74 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f223e04-c07d-4df9-b6b8-07cd50e035da")
+		(property "Reference" "#FLG01"
+			(at 332.74 196.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 332.74 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.74 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 332.74 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 332.74 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9fa9cfb-a803-4d9a-827d-ba49ab9b4cb0")
+		)
+		(instances
+			(project ""
+				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -15192,7 +15910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f8ed651-70f5-4c94-be7d-6bf3c0983fb3")
-		(property "Reference" "RWIN"
+		(property "Reference" "SW82"
 			(at 279.0252 125.73 0)
 			(effects
 				(font
@@ -15200,7 +15918,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "RWIN"
 			(at 279.0252 128.27 0)
 			(effects
 				(font
@@ -15244,7 +15962,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "RWIN")
+					(reference "SW82")
 					(unit 1)
 				)
 			)
@@ -15260,7 +15978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80acd4f2-f366-456f-b154-d7b027028a01")
-		(property "Reference" "N"
+		(property "Reference" "SW70"
 			(at 202.8252 106.68 0)
 			(effects
 				(font
@@ -15268,7 +15986,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "N"
 			(at 202.8252 109.22 0)
 			(effects
 				(font
@@ -15312,7 +16030,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "N")
+					(reference "SW70")
 					(unit 1)
 				)
 			)
@@ -15328,7 +16046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80c565a3-6070-48df-88ae-a253da108dc2")
-		(property "Reference" "X"
+		(property "Reference" "SW66"
 			(at 126.6252 106.68 0)
 			(effects
 				(font
@@ -15336,7 +16054,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "X"
 			(at 126.6252 109.22 0)
 			(effects
 				(font
@@ -15380,7 +16098,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "X")
+					(reference "SW66")
 					(unit 1)
 				)
 			)
@@ -15396,7 +16114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8309b9de-08ca-4c71-b38a-093e637d590f")
-		(property "Reference" "F2"
+		(property "Reference" "SW3"
 			(at 126.6252 30.48 0)
 			(effects
 				(font
@@ -15404,7 +16122,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "F2"
 			(at 126.6252 33.02 0)
 			(effects
 				(font
@@ -15448,7 +16166,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "F2")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -15534,7 +16252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "859b6edd-7e3a-4fa0-9a7f-9787078c5e7a")
-		(property "Reference" "D100"
+		(property "Reference" "D14"
 			(at 336.55 43.1799 90)
 			(effects
 				(font
@@ -15606,7 +16324,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D100")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -15622,7 +16340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "860d7c76-529a-4f54-b12c-ca70c8740a21")
-		(property "Reference" "D90"
+		(property "Reference" "D4"
 			(at 146.05 43.1799 90)
 			(effects
 				(font
@@ -15694,7 +16412,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D90")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -15702,7 +16420,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 350.52 198.12 0)
+		(at 365.76 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15711,7 +16429,7 @@
 		(fields_autoplaced yes)
 		(uuid "89cf15dd-fc8e-44d0-ba27-c153837bd2e1")
 		(property "Reference" "#PWR012"
-			(at 350.52 201.93 0)
+			(at 365.76 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15720,7 +16438,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 350.52 193.04 0)
+			(at 365.76 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15728,7 +16446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 350.52 198.12 0)
+			(at 365.76 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15737,7 +16455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 198.12 0)
+			(at 365.76 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15746,7 +16464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 350.52 198.12 0)
+			(at 365.76 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15776,7 +16494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c6263cc-fb13-44e2-8e04-5cd5dc4985c1")
-		(property "Reference" "U"
+		(property "Reference" "SW41"
 			(at 202.8252 68.58 0)
 			(effects
 				(font
@@ -15784,7 +16502,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "U"
 			(at 202.8252 71.12 0)
 			(effects
 				(font
@@ -15828,7 +16546,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "U")
+					(reference "SW41")
 					(unit 1)
 				)
 			)
@@ -15844,7 +16562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8edaf698-d32a-4118-ba5f-7c5fe34fa6e9")
-		(property "Reference" "RCTRL"
+		(property "Reference" "SW84"
 			(at 317.1252 125.73 0)
 			(effects
 				(font
@@ -15852,7 +16570,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "RCTRL"
 			(at 317.1252 128.27 0)
 			(effects
 				(font
@@ -15896,7 +16614,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "RCTRL")
+					(reference "SW84")
 					(unit 1)
 				)
 			)
@@ -15912,7 +16630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8efbfcd2-3159-4f34-8c43-9eafa6527380")
-		(property "Reference" "D37"
+		(property "Reference" "D41"
 			(at 203.2 81.2799 90)
 			(effects
 				(font
@@ -15984,7 +16702,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D37")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -16000,7 +16718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f6cc3fb-2f04-4851-ae7e-3a4f67994fc6")
-		(property "Reference" "V"
+		(property "Reference" "SW68"
 			(at 164.7252 106.68 0)
 			(effects
 				(font
@@ -16008,7 +16726,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "V"
 			(at 164.7252 109.22 0)
 			(effects
 				(font
@@ -16052,7 +16770,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "V")
+					(reference "SW68")
 					(unit 1)
 				)
 			)
@@ -16129,6 +16847,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 358.14 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94cd4450-3ab9-4afc-a24a-a3ccc858609e")
+		(property "Reference" "#FLG03"
+			(at 358.14 196.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 358.14 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 358.14 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 358.14 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb5a50e4-952f-4a80-ab76-d6a3f3eb906a")
+		)
+		(instances
+			(project ""
+				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MX_Alps_Hybrid:MX-NoLED")
 		(at 144.78 113.03 0)
 		(unit 1)
@@ -16138,7 +16922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95379478-7115-44a9-952f-cbd551e7cc80")
-		(property "Reference" "C"
+		(property "Reference" "SW67"
 			(at 145.6752 106.68 0)
 			(effects
 				(font
@@ -16146,7 +16930,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "C"
 			(at 145.6752 109.22 0)
 			(effects
 				(font
@@ -16190,7 +16974,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "C")
+					(reference "SW67")
 					(unit 1)
 				)
 			)
@@ -16206,7 +16990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "956f7f95-38ce-4174-9bd1-93abc70ad33c")
-		(property "Reference" "M"
+		(property "Reference" "SW71"
 			(at 221.8752 106.68 0)
 			(effects
 				(font
@@ -16214,7 +16998,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "M"
 			(at 221.8752 109.22 0)
 			(effects
 				(font
@@ -16258,7 +17042,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "M")
+					(reference "SW71")
 					(unit 1)
 				)
 			)
@@ -16342,7 +17126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99cbaa82-0204-484d-a29f-1bf2c29bf5e7")
-		(property "Reference" "D24"
+		(property "Reference" "D67"
 			(at 146.05 119.3799 90)
 			(effects
 				(font
@@ -16414,7 +17198,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D24")
+					(reference "D67")
 					(unit 1)
 				)
 			)
@@ -16430,7 +17214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aa96468-3454-44a5-b5e4-ffe82e82f3ce")
-		(property "Reference" "D60"
+		(property "Reference" "D82"
 			(at 279.4 138.4299 90)
 			(effects
 				(font
@@ -16502,7 +17286,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D60")
+					(reference "D82")
 					(unit 1)
 				)
 			)
@@ -16518,7 +17302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b3cbaa3-436b-4a4a-8a2e-d77d736509c4")
-		(property "Reference" "J"
+		(property "Reference" "SW58"
 			(at 202.8252 87.63 0)
 			(effects
 				(font
@@ -16526,7 +17310,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "J"
 			(at 202.8252 90.17 0)
 			(effects
 				(font
@@ -16570,7 +17354,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "J")
+					(reference "SW58")
 					(unit 1)
 				)
 			)
@@ -16586,7 +17370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d546151-738a-4186-8ea8-eacc65a2163c")
-		(property "Reference" "PBRK"
+		(property "Reference" "SW16"
 			(at 374.2752 30.48 0)
 			(effects
 				(font
@@ -16594,7 +17378,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "PBRK"
 			(at 374.2752 33.02 0)
 			(effects
 				(font
@@ -16638,7 +17422,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "PBRK")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -16654,7 +17438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9de3f592-3e46-4c77-8627-ffaff118b221")
-		(property "Reference" "D62"
+		(property "Reference" "D46"
 			(at 298.45 81.2799 90)
 			(effects
 				(font
@@ -16726,7 +17510,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D62")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -16742,7 +17526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ea67bba-9631-4612-b64a-e121bad568a4")
-		(property "Reference" "D98"
+		(property "Reference" "D12"
 			(at 298.45 43.1799 90)
 			(effects
 				(font
@@ -16814,7 +17598,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D98")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -16830,7 +17614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f8cf9f6-7f42-4a7d-aaca-c077bb7b9d6d")
-		(property "Reference" "D53"
+		(property "Reference" "D61"
 			(at 260.35 100.3299 90)
 			(effects
 				(font
@@ -16902,7 +17686,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D53")
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -16918,7 +17702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fbb6691-e9f0-4910-bc36-1f2850f96ecc")
-		(property "Reference" "D26"
+		(property "Reference" "D22"
 			(at 165.1 62.2299 90)
 			(effects
 				(font
@@ -16990,7 +17774,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D26")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -17006,7 +17790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a423ac33-d629-4085-83d5-9cdbbf653c03")
-		(property "Reference" "D47"
+		(property "Reference" "D43"
 			(at 241.3 81.2799 90)
 			(effects
 				(font
@@ -17078,7 +17862,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D47")
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -17094,7 +17878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5129aee-f6cd-4c9e-8c8d-eb2ab90300e0")
-		(property "Reference" "D1"
+		(property "Reference" "D17"
 			(at 69.85 62.2299 90)
 			(effects
 				(font
@@ -17166,7 +17950,7 @@
 		(instances
 			(project ""
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D1")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -17182,7 +17966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a58f223a-aa1d-47c1-80fb-fc2ff8f69159")
-		(property "Reference" "."
+		(property "Reference" "SW73"
 			(at 259.9752 106.68 0)
 			(effects
 				(font
@@ -17190,7 +17974,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "."
 			(at 259.9752 109.22 0)
 			(effects
 				(font
@@ -17234,7 +18018,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference ".")
+					(reference "SW73")
 					(unit 1)
 				)
 			)
@@ -17250,7 +18034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6783985-1dad-4529-9c3d-fa8674fbeb4c")
-		(property "Reference" "D51"
+		(property "Reference" "D27"
 			(at 260.35 62.2299 90)
 			(effects
 				(font
@@ -17322,7 +18106,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D51")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -17338,7 +18122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a859275b-7db4-493a-bb51-2d8d18e97e14")
-		(property "Reference" "D10"
+		(property "Reference" "D78"
 			(at 88.9 138.4299 90)
 			(effects
 				(font
@@ -17410,7 +18194,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D10")
+					(reference "D78")
 					(unit 1)
 				)
 			)
@@ -17426,7 +18210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a895f021-f38f-43ab-ae47-2764d0fad3e4")
-		(property "Reference" "ENTER"
+		(property "Reference" "SW63"
 			(at 317.1252 87.63 0)
 			(effects
 				(font
@@ -17434,7 +18218,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "ENTER"
 			(at 317.1252 90.17 0)
 			(effects
 				(font
@@ -17478,7 +18262,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "ENTER")
+					(reference "SW63")
 					(unit 1)
 				)
 			)
@@ -17494,7 +18278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9d4d382-6ab0-4a51-8481-b49773a27831")
-		(property "Reference" "D28"
+		(property "Reference" "D56"
 			(at 165.1 100.3299 90)
 			(effects
 				(font
@@ -17566,7 +18350,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D28")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -17582,7 +18366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9f120c1-0c02-4a6b-bb77-33445f7d365d")
-		(property "Reference" "D95"
+		(property "Reference" "D9"
 			(at 241.3 43.1799 90)
 			(effects
 				(font
@@ -17654,7 +18438,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D95")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -17670,7 +18454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9f2838a-3159-4c90-bd87-eb759f087904")
-		(property "Reference" "D23"
+		(property "Reference" "D55"
 			(at 146.05 100.3299 90)
 			(effects
 				(font
@@ -17742,7 +18526,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D23")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -17758,7 +18542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa9b10c8-4487-4118-acad-4bb20e2af295")
-		(property "Reference" "O"
+		(property "Reference" "SW43"
 			(at 240.9252 68.58 0)
 			(effects
 				(font
@@ -17766,7 +18550,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "O"
 			(at 240.9252 71.12 0)
 			(effects
 				(font
@@ -17810,7 +18594,74 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "O")
+					(reference "SW43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 332.74 208.28 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab5d7f27-9292-4385-882c-9478ebe7930c")
+		(property "Reference" "#FLG02"
+			(at 332.74 210.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 332.74 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.74 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 332.74 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 332.74 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3a3a3da-fb00-4287-89c1-6e6f54c4a4ce")
+		)
+		(instances
+			(project ""
+				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -17826,7 +18677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac2d3e3b-da4f-4bcd-9f20-86529cfb74fb")
-		(property "Reference" "F3"
+		(property "Reference" "SW4"
 			(at 145.6752 30.48 0)
 			(effects
 				(font
@@ -17834,7 +18685,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "F3"
 			(at 145.6752 33.02 0)
 			(effects
 				(font
@@ -17878,7 +18729,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "F3")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -17894,7 +18745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac4d2955-c68b-4901-9402-43a586ef59f0")
-		(property "Reference" "D17"
+		(property "Reference" "D37"
 			(at 127 81.2799 90)
 			(effects
 				(font
@@ -17966,7 +18817,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D17")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -17982,7 +18833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1af2a59-cc2c-470b-9c10-d02513492ac9")
-		(property "Reference" "LCTRL"
+		(property "Reference" "SW77"
 			(at 69.4752 125.73 0)
 			(effects
 				(font
@@ -17990,7 +18841,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "LCTRL"
 			(at 69.4752 128.27 0)
 			(effects
 				(font
@@ -18034,7 +18885,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "LCTRL")
+					(reference "SW77")
 					(unit 1)
 				)
 			)
@@ -18116,7 +18967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b36877af-486b-4ba8-a625-539c9c50e0f2")
-		(property "Reference" "F9"
+		(property "Reference" "SW10"
 			(at 259.9752 30.48 0)
 			(effects
 				(font
@@ -18124,7 +18975,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "F9"
 			(at 259.9752 33.02 0)
 			(effects
 				(font
@@ -18168,7 +19019,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "F9")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -18184,7 +19035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4c584fb-c84e-44a5-b1eb-87ab024d85d5")
-		(property "Reference" "D99"
+		(property "Reference" "D13"
 			(at 317.5 43.1799 90)
 			(effects
 				(font
@@ -18256,7 +19107,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D99")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -18272,7 +19123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4d0a3c0-20ed-4c95-adfe-ada21755908b")
-		(property "Reference" "F1"
+		(property "Reference" "SW2"
 			(at 107.5752 30.48 0)
 			(effects
 				(font
@@ -18280,7 +19131,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "F1"
 			(at 107.5752 33.02 0)
 			(effects
 				(font
@@ -18324,7 +19175,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "F1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -18340,7 +19191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b549a7e8-a775-4b48-9ddb-c9e50cb633a4")
-		(property "Reference" "D35"
+		(property "Reference" "D80"
 			(at 184.15 138.4299 90)
 			(effects
 				(font
@@ -18412,7 +19263,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D35")
+					(reference "D80")
 					(unit 1)
 				)
 			)
@@ -18428,7 +19279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5c02120-5df0-4207-b079-87b531b61ca8")
-		(property "Reference" "D89"
+		(property "Reference" "D3"
 			(at 127 43.1799 90)
 			(effects
 				(font
@@ -18500,7 +19351,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D89")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -18516,7 +19367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6197d9e-0665-4829-b91f-1ac679ae9287")
-		(property "Reference" "LEFT"
+		(property "Reference" "SW85"
 			(at 336.1752 125.73 0)
 			(effects
 				(font
@@ -18524,7 +19375,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "LEFT"
 			(at 336.1752 128.27 0)
 			(effects
 				(font
@@ -18568,7 +19419,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "LEFT")
+					(reference "SW85")
 					(unit 1)
 				)
 			)
@@ -18652,7 +19503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8be3cb4-5715-4fc8-bdad-2974d8fd53a8")
-		(property "Reference" "F10"
+		(property "Reference" "SW11"
 			(at 279.0252 30.48 0)
 			(effects
 				(font
@@ -18660,7 +19511,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "F10"
 			(at 279.0252 33.02 0)
 			(effects
 				(font
@@ -18704,7 +19555,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "F10")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -18790,7 +19641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba4eb5b4-a17f-4a18-8857-0e6849a36352")
-		(property "Reference" "SCRLLK"
+		(property "Reference" "SW15"
 			(at 355.2252 30.48 0)
 			(effects
 				(font
@@ -18798,7 +19649,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "SCRLLK"
 			(at 355.2252 33.02 0)
 			(effects
 				(font
@@ -18842,7 +19693,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "SCRLLK")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -18858,7 +19709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bab6b919-60f2-4b64-b358-36b77fa65f21")
-		(property "Reference" "D69"
+		(property "Reference" "D75"
 			(at 317.5 119.3799 90)
 			(effects
 				(font
@@ -18930,7 +19781,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D69")
+					(reference "D75")
 					(unit 1)
 				)
 			)
@@ -18946,7 +19797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbf68283-a97c-4d46-9e09-472ec21b2abc")
-		(property "Reference" "/"
+		(property "Reference" "SW74"
 			(at 279.0252 106.68 0)
 			(effects
 				(font
@@ -18954,7 +19805,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "/"
 			(at 279.0252 109.22 0)
 			(effects
 				(font
@@ -18998,7 +19849,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "/")
+					(reference "SW74")
 					(unit 1)
 				)
 			)
@@ -19014,7 +19865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd570b77-4525-42db-9d9c-7d809d865589")
-		(property "Reference" "Q"
+		(property "Reference" "SW35"
 			(at 88.5252 68.58 0)
 			(effects
 				(font
@@ -19022,7 +19873,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "Q"
 			(at 88.5252 71.12 0)
 			(effects
 				(font
@@ -19066,7 +19917,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "Q")
+					(reference "SW35")
 					(unit 1)
 				)
 			)
@@ -19148,7 +19999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf38b2db-890c-44e0-b510-9272a7802316")
-		(property "Reference" "D61"
+		(property "Reference" "D29"
 			(at 298.45 62.2299 90)
 			(effects
 				(font
@@ -19220,7 +20071,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D61")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -19302,7 +20153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2a5a244-2f88-4b5a-89ce-d2d987dee6e3")
-		(property "Reference" "A"
+		(property "Reference" "SW52"
 			(at 88.5252 87.63 0)
 			(effects
 				(font
@@ -19310,7 +20161,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "A"
 			(at 88.5252 90.17 0)
 			(effects
 				(font
@@ -19354,7 +20205,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "A")
+					(reference "SW52")
 					(unit 1)
 				)
 			)
@@ -19370,7 +20221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3db0879-c85b-4210-a70b-e2c883079340")
-		(property "Reference" "DEL"
+		(property "Reference" "SW48"
 			(at 336.1752 68.58 0)
 			(effects
 				(font
@@ -19378,7 +20229,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "DEL"
 			(at 336.1752 71.12 0)
 			(effects
 				(font
@@ -19422,7 +20273,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "DEL")
+					(reference "SW48")
 					(unit 1)
 				)
 			)
@@ -19438,7 +20289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c624d3f1-5773-42a4-bc1a-00a686b5199b")
-		(property "Reference" "I"
+		(property "Reference" "SW42"
 			(at 221.8752 68.58 0)
 			(effects
 				(font
@@ -19446,7 +20297,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "I"
 			(at 221.8752 71.12 0)
 			(effects
 				(font
@@ -19490,7 +20341,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "I")
+					(reference "SW42")
 					(unit 1)
 				)
 			)
@@ -19506,7 +20357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7093d17-b081-404a-a16f-93ef7add0f4d")
-		(property "Reference" "D15"
+		(property "Reference" "D79"
 			(at 107.95 138.4299 90)
 			(effects
 				(font
@@ -19578,7 +20429,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D15")
+					(reference "D79")
 					(unit 1)
 				)
 			)
@@ -19594,7 +20445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9ec3c00-2014-4bec-985a-dffd26b48564")
-		(property "Reference" "ESC"
+		(property "Reference" "SW1"
 			(at 69.4752 30.48 0)
 			(effects
 				(font
@@ -19602,7 +20453,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "ESC"
 			(at 69.4752 33.02 0)
 			(effects
 				(font
@@ -19646,7 +20497,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "ESC")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -19662,7 +20513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca30f09b-4474-4707-a201-4c62a93bcf06")
-		(property "Reference" "D65"
+		(property "Reference" "D83"
 			(at 298.45 138.4299 90)
 			(effects
 				(font
@@ -19734,7 +20585,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D65")
+					(reference "D83")
 					(unit 1)
 				)
 			)
@@ -19750,7 +20601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb245b5c-2b02-47d1-93a8-16150a83a519")
-		(property "Reference" "D57"
+		(property "Reference" "D45"
 			(at 279.4 81.2799 90)
 			(effects
 				(font
@@ -19822,7 +20673,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D57")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -19838,7 +20689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb26de02-7edb-465a-bdd5-13e21ce5c26c")
-		(property "Reference" "D34"
+		(property "Reference" "D69"
 			(at 184.15 119.3799 90)
 			(effects
 				(font
@@ -19910,7 +20761,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D34")
+					(reference "D69")
 					(unit 1)
 				)
 			)
@@ -19926,7 +20777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccc2e8a4-cccb-4db0-93d8-e194a1ce2b8d")
-		(property "Reference" "D5"
+		(property "Reference" "D77"
 			(at 69.85 138.4299 90)
 			(effects
 				(font
@@ -19998,7 +20849,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D5")
+					(reference "D77")
 					(unit 1)
 				)
 			)
@@ -20014,7 +20865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce2a5d47-4ef1-4ded-b048-cd079d0786a1")
-		(property "Reference" "D3"
+		(property "Reference" "D51"
 			(at 69.85 100.3299 90)
 			(effects
 				(font
@@ -20086,7 +20937,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D3")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -20102,7 +20953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf8b4ec1-ed81-4a08-b7d6-91e44d0a648d")
-		(property "Reference" "N4"
+		(property "Reference" "SW21"
 			(at 145.6752 49.53 0)
 			(effects
 				(font
@@ -20110,7 +20961,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "#4"
 			(at 145.6752 52.07 0)
 			(effects
 				(font
@@ -20154,7 +21005,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "N4")
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -20170,7 +21021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfb5b4b2-a4b9-4db0-b600-a8ec3c47355e")
-		(property "Reference" "D49"
+		(property "Reference" "D72"
 			(at 241.3 119.3799 90)
 			(effects
 				(font
@@ -20242,7 +21093,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D49")
+					(reference "D72")
 					(unit 1)
 				)
 			)
@@ -20258,7 +21109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0d9a0ce-40a5-4c37-a47f-dc0b57b0cabb")
-		(property "Reference" "SW1"
+		(property "Reference" "SW88"
 			(at 133.35 168.91 0)
 			(effects
 				(font
@@ -20310,7 +21161,7 @@
 		(instances
 			(project ""
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "SW1")
+					(reference "SW88")
 					(unit 1)
 				)
 			)
@@ -20326,7 +21177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d17be0fd-17e2-4da0-8eae-b14f85aeb45e")
-		(property "Reference" "D14"
+		(property "Reference" "D65"
 			(at 107.95 119.3799 90)
 			(effects
 				(font
@@ -20398,7 +21249,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D14")
+					(reference "D65")
 					(unit 1)
 				)
 			)
@@ -20414,7 +21265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1f75879-e40d-4ff9-ab38-6fbfa3419878")
-		(property "Reference" "CAPSLK"
+		(property "Reference" "SW51"
 			(at 69.4752 87.63 0)
 			(effects
 				(font
@@ -20422,7 +21273,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "CAPSLK"
 			(at 69.4752 90.17 0)
 			(effects
 				(font
@@ -20466,7 +21317,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "CAPSLK")
+					(reference "SW51")
 					(unit 1)
 				)
 			)
@@ -20482,7 +21333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2040d83-2ab2-4924-a327-6e98e8dbbfef")
-		(property "Reference" "N3"
+		(property "Reference" "SW20"
 			(at 126.6252 49.53 0)
 			(effects
 				(font
@@ -20490,7 +21341,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "#3"
 			(at 126.6252 52.07 0)
 			(effects
 				(font
@@ -20534,7 +21385,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "N3")
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -20618,7 +21469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d33b4dbf-f4df-4817-a925-eb3fb0ced833")
-		(property "Reference" "D70"
+		(property "Reference" "D84"
 			(at 317.5 138.4299 90)
 			(effects
 				(font
@@ -20690,7 +21541,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D70")
+					(reference "D84")
 					(unit 1)
 				)
 			)
@@ -20706,7 +21557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d49080a8-e881-42e3-b377-c05f2a71452d")
-		(property "Reference" "D86"
+		(property "Reference" "D1"
 			(at 69.85 43.1799 90)
 			(effects
 				(font
@@ -20778,7 +21629,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D86")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -20794,7 +21645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6e06cd2-da05-459e-aa2b-525db3f1f2ce")
-		(property "Reference" "D6"
+		(property "Reference" "D18"
 			(at 88.9 62.2299 90)
 			(effects
 				(font
@@ -20866,7 +21717,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D6")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -20882,7 +21733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d723c08b-8d70-4d28-9362-e6aec2f33e70")
-		(property "Reference" "D81"
+		(property "Reference" "D33"
 			(at 374.65 62.2299 90)
 			(effects
 				(font
@@ -20954,7 +21805,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D81")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -20970,7 +21821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7ba1650-3c28-4877-a95f-b97f639728bb")
-		(property "Reference" "N1"
+		(property "Reference" "SW18"
 			(at 88.5252 49.53 0)
 			(effects
 				(font
@@ -20978,7 +21829,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "#1"
 			(at 88.5252 52.07 0)
 			(effects
 				(font
@@ -21022,7 +21873,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "N1")
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -21038,7 +21889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8478681-ba09-4c8d-81cc-8ca430d92d47")
-		(property "Reference" "N9"
+		(property "Reference" "SW26"
 			(at 240.9252 49.53 0)
 			(effects
 				(font
@@ -21046,7 +21897,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "#9"
 			(at 240.9252 52.07 0)
 			(effects
 				(font
@@ -21090,7 +21941,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "N9")
+					(reference "SW26")
 					(unit 1)
 				)
 			)
@@ -21106,7 +21957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9c866d3-2397-4581-a5bc-4e7e9c490eb5")
-		(property "Reference" "F7"
+		(property "Reference" "SW8"
 			(at 221.8752 30.48 0)
 			(effects
 				(font
@@ -21114,7 +21965,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "F7"
 			(at 221.8752 33.02 0)
 			(effects
 				(font
@@ -21158,7 +22009,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "F7")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -21174,7 +22025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db180d58-b99a-4dfd-bf39-0e00f2a837a4")
-		(property "Reference" "E"
+		(property "Reference" "SW37"
 			(at 126.6252 68.58 0)
 			(effects
 				(font
@@ -21182,7 +22033,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "E"
 			(at 126.6252 71.12 0)
 			(effects
 				(font
@@ -21226,7 +22077,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "E")
+					(reference "SW37")
 					(unit 1)
 				)
 			)
@@ -21242,7 +22093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db9f69de-8f1c-4b1f-b56b-01616625ddc3")
-		(property "Reference" "LALT"
+		(property "Reference" "SW79"
 			(at 107.5752 125.73 0)
 			(effects
 				(font
@@ -21250,7 +22101,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "LALT"
 			(at 107.5752 128.27 0)
 			(effects
 				(font
@@ -21294,7 +22145,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "LALT")
+					(reference "SW79")
 					(unit 1)
 				)
 			)
@@ -21378,7 +22229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e056b543-239c-48fd-b520-771df0567f8e")
-		(property "Reference" "D88"
+		(property "Reference" "D2"
 			(at 107.95 43.1799 90)
 			(effects
 				(font
@@ -21450,7 +22301,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D88")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -21466,7 +22317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e09683a9-663e-4ce6-afcd-495cc42cfe80")
-		(property "Reference" "Z"
+		(property "Reference" "SW65"
 			(at 107.5752 106.68 0)
 			(effects
 				(font
@@ -21474,7 +22325,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "Z"
 			(at 107.5752 109.22 0)
 			(effects
 				(font
@@ -21518,7 +22369,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "Z")
+					(reference "SW65")
 					(unit 1)
 				)
 			)
@@ -21534,7 +22385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e32e472f-6677-474c-b5a7-80496225ebee")
-		(property "Reference" "PGUP"
+		(property "Reference" "SW33"
 			(at 374.2752 49.53 0)
 			(effects
 				(font
@@ -21542,7 +22393,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "PGUP"
 			(at 374.2752 52.07 0)
 			(effects
 				(font
@@ -21586,7 +22437,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "PGUP")
+					(reference "SW33")
 					(unit 1)
 				)
 			)
@@ -21602,7 +22453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e353cbf2-eeb6-4f60-b2d3-a4af28cb0c57")
-		(property "Reference" "="
+		(property "Reference" "SW29"
 			(at 298.0752 49.53 0)
 			(effects
 				(font
@@ -21610,7 +22461,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "="
 			(at 298.0752 52.07 0)
 			(effects
 				(font
@@ -21654,7 +22505,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "=")
+					(reference "SW29")
 					(unit 1)
 				)
 			)
@@ -21670,7 +22521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e412b223-9509-4cff-ac30-897d91088ea6")
-		(property "Reference" "D55"
+		(property "Reference" "D81"
 			(at 260.35 138.4299 90)
 			(effects
 				(font
@@ -21742,7 +22593,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D55")
+					(reference "D81")
 					(unit 1)
 				)
 			)
@@ -21758,7 +22609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4dfdbbc-7ac3-4d7d-8374-1f67f670ac08")
-		(property "Reference" "D4"
+		(property "Reference" "D64"
 			(at 69.85 119.3799 90)
 			(effects
 				(font
@@ -21830,7 +22681,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D4")
+					(reference "D64")
 					(unit 1)
 				)
 			)
@@ -21846,7 +22697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4ff4513-a9da-42db-946b-5dca031f2329")
-		(property "Reference" "S"
+		(property "Reference" "SW53"
 			(at 107.5752 87.63 0)
 			(effects
 				(font
@@ -21854,7 +22705,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "S"
 			(at 107.5752 90.17 0)
 			(effects
 				(font
@@ -21898,7 +22749,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "S")
+					(reference "SW53")
 					(unit 1)
 				)
 			)
@@ -22052,7 +22903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0b204da-e6f9-4cba-8110-f9884d56b4bf")
-		(property "Reference" "D12"
+		(property "Reference" "D36"
 			(at 107.95 81.2799 90)
 			(effects
 				(font
@@ -22124,7 +22975,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D12")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -22206,7 +23057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5438b49-76c4-4624-8fb3-efe6c0700837")
-		(property "Reference" "SPACE"
+		(property "Reference" "SW80"
 			(at 183.7752 125.73 0)
 			(effects
 				(font
@@ -22214,7 +23065,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "SPACE"
 			(at 183.7752 128.27 0)
 			(effects
 				(font
@@ -22258,7 +23109,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "SPACE")
+					(reference "SW80")
 					(unit 1)
 				)
 			)
@@ -22274,7 +23125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6e0fe03-861a-4159-9d01-36aacd61b154")
-		(property "Reference" "N6"
+		(property "Reference" "SW23"
 			(at 183.7752 49.53 0)
 			(effects
 				(font
@@ -22282,7 +23133,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "#6"
 			(at 183.7752 52.07 0)
 			(effects
 				(font
@@ -22326,7 +23177,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "N6")
+					(reference "SW23")
 					(unit 1)
 				)
 			)
@@ -22342,7 +23193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f947a07a-114e-438e-a1ee-735aa485ab0a")
-		(property "Reference" "D96"
+		(property "Reference" "D10"
 			(at 260.35 43.1799 90)
 			(effects
 				(font
@@ -22414,7 +23265,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D96")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -22430,7 +23281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb59c095-bffe-4253-8d09-0984f794af8f")
-		(property "Reference" "LSHIFT"
+		(property "Reference" "SW64"
 			(at 69.4752 106.68 0)
 			(effects
 				(font
@@ -22438,7 +23289,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "LSHIFT"
 			(at 69.4752 109.22 0)
 			(effects
 				(font
@@ -22482,7 +23333,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "LSHIFT")
+					(reference "SW64")
 					(unit 1)
 				)
 			)
@@ -22498,7 +23349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc31c3e9-cc04-4694-b328-4b7161cfe321")
-		(property "Reference" "H"
+		(property "Reference" "SW57"
 			(at 183.7752 87.63 0)
 			(effects
 				(font
@@ -22506,7 +23357,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "H"
 			(at 183.7752 90.17 0)
 			(effects
 				(font
@@ -22550,7 +23401,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "H")
+					(reference "SW57")
 					(unit 1)
 				)
 			)
@@ -22558,7 +23409,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 328.93 198.12 0)
+		(at 340.36 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22567,7 +23418,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcfbca9d-397f-49e9-a6b0-2a27b977b0a7")
 		(property "Reference" "#PWR011"
-			(at 328.93 201.93 0)
+			(at 340.36 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22576,7 +23427,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 328.93 193.04 0)
+			(at 340.36 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22584,7 +23435,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 328.93 198.12 0)
+			(at 340.36 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22593,7 +23444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 328.93 198.12 0)
+			(at 340.36 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22602,7 +23453,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 328.93 198.12 0)
+			(at 340.36 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22632,7 +23483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd427eaf-2121-4757-9d27-bb455508d269")
-		(property "Reference" "Y"
+		(property "Reference" "SW40"
 			(at 183.7752 68.58 0)
 			(effects
 				(font
@@ -22640,7 +23491,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "Y"
 			(at 183.7752 71.12 0)
 			(effects
 				(font
@@ -22684,7 +23535,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "Y")
+					(reference "SW40")
 					(unit 1)
 				)
 			)
@@ -22700,7 +23551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fea293ba-3ca7-45b8-9a80-82d40b15b7eb")
-		(property "Reference" "D38"
+		(property "Reference" "D58"
 			(at 203.2 100.3299 90)
 			(effects
 				(font
@@ -22772,7 +23623,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "D38")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -22788,7 +23639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fec00de0-869d-4ffa-9048-1b22b69cc342")
-		(property "Reference" "R"
+		(property "Reference" "SW38"
 			(at 145.6752 68.58 0)
 			(effects
 				(font
@@ -22796,7 +23647,7 @@
 				)
 			)
 		)
-		(property "Value" "MX-NoLED"
+		(property "Value" "R"
 			(at 145.6752 71.12 0)
 			(effects
 				(font
@@ -22840,7 +23691,7 @@
 		(instances
 			(project "keyboard_pcb"
 				(path "/1bcb0151-7e4c-4b31-aba3-35eea0f0d644"
-					(reference "R")
+					(reference "SW38")
 					(unit 1)
 				)
 			)
