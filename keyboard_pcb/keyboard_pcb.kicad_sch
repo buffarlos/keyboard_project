@@ -7851,7 +7851,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 353.06 82.55 90)
 			(effects
 				(font
@@ -7937,7 +7937,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 71.755 132.715 0)
 			(effects
 				(font
@@ -8007,7 +8007,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 334.01 139.7 90)
 			(effects
 				(font
@@ -8095,7 +8095,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 257.81 120.65 90)
 			(effects
 				(font
@@ -8183,7 +8183,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 276.86 63.5 90)
 			(effects
 				(font
@@ -8271,7 +8271,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 334.01 63.5 90)
 			(effects
 				(font
@@ -8359,7 +8359,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 105.41 63.5 90)
 			(effects
 				(font
@@ -8445,7 +8445,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 128.905 94.615 0)
 			(effects
 				(font
@@ -8513,7 +8513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 224.155 37.465 0)
 			(effects
 				(font
@@ -8581,7 +8581,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 205.105 56.515 0)
 			(effects
 				(font
@@ -8651,7 +8651,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 372.11 44.45 90)
 			(effects
 				(font
@@ -8737,7 +8737,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 90.805 56.515 0)
 			(effects
 				(font
@@ -8807,7 +8807,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 353.06 120.65 90)
 			(effects
 				(font
@@ -9092,7 +9092,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 86.36 101.6 90)
 			(effects
 				(font
@@ -9178,7 +9178,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 109.855 94.615 0)
 			(effects
 				(font
@@ -9248,7 +9248,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 238.76 101.6 90)
 			(effects
 				(font
@@ -9334,7 +9334,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 262.255 75.565 0)
 			(effects
 				(font
@@ -9402,7 +9402,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB"
 			(at 300.355 56.515 0)
 			(effects
 				(font
@@ -9472,7 +9472,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 314.96 101.6 90)
 			(effects
 				(font
@@ -9558,7 +9558,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 147.955 94.615 0)
 			(effects
 				(font
@@ -9628,7 +9628,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 353.06 44.45 90)
 			(effects
 				(font
@@ -9716,7 +9716,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 257.81 82.55 90)
 			(effects
 				(font
@@ -9802,7 +9802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 243.205 132.715 0)
 			(effects
 				(font
@@ -9872,7 +9872,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 143.51 63.5 90)
 			(effects
 				(font
@@ -9958,7 +9958,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 205.105 94.615 0)
 			(effects
 				(font
@@ -10026,7 +10026,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 243.205 75.565 0)
 			(effects
 				(font
@@ -10096,7 +10096,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 334.01 82.55 90)
 			(effects
 				(font
@@ -10184,7 +10184,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 314.96 82.55 90)
 			(effects
 				(font
@@ -10270,7 +10270,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 147.955 37.465 0)
 			(effects
 				(font
@@ -10340,7 +10340,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 200.66 63.5 90)
 			(effects
 				(font
@@ -10426,7 +10426,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 281.305 37.465 0)
 			(effects
 				(font
@@ -10496,7 +10496,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 372.11 139.7 90)
 			(effects
 				(font
@@ -10584,7 +10584,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 86.36 82.55 90)
 			(effects
 				(font
@@ -10670,7 +10670,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 167.005 113.665 0)
 			(effects
 				(font
@@ -10740,7 +10740,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 372.11 82.55 90)
 			(effects
 				(font
@@ -10828,7 +10828,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 200.66 44.45 90)
 			(effects
 				(font
@@ -10914,7 +10914,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 319.405 56.515 0)
 			(effects
 				(font
@@ -10984,7 +10984,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 219.71 101.6 90)
 			(effects
 				(font
@@ -11072,7 +11072,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 162.56 120.65 90)
 			(effects
 				(font
@@ -11160,7 +11160,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 105.41 101.6 90)
 			(effects
 				(font
@@ -11246,7 +11246,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 262.255 94.615 0)
 			(effects
 				(font
@@ -11314,7 +11314,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 186.055 56.515 0)
 			(effects
 				(font
@@ -11384,7 +11384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 219.71 120.65 90)
 			(effects
 				(font
@@ -11470,7 +11470,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 147.955 75.565 0)
 			(effects
 				(font
@@ -11606,7 +11606,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 353.06 63.5 90)
 			(effects
 				(font
@@ -11692,7 +11692,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 243.205 94.615 0)
 			(effects
 				(font
@@ -11760,7 +11760,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 147.955 56.515 0)
 			(effects
 				(font
@@ -11896,7 +11896,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 200.66 120.65 90)
 			(effects
 				(font
@@ -11982,7 +11982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 224.155 94.615 0)
 			(effects
 				(font
@@ -12050,7 +12050,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 52.705 56.515 0)
 			(effects
 				(font
@@ -12118,7 +12118,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 281.305 132.715 0)
 			(effects
 				(font
@@ -12188,7 +12188,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 124.46 120.65 90)
 			(effects
 				(font
@@ -12274,7 +12274,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 243.205 56.515 0)
 			(effects
 				(font
@@ -12409,7 +12409,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 124.46 101.6 90)
 			(effects
 				(font
@@ -12495,7 +12495,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 357.505 75.565 0)
 			(effects
 				(font
@@ -12565,7 +12565,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 353.06 139.7 90)
 			(effects
 				(font
@@ -12651,7 +12651,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB"
 			(at 300.355 75.565 0)
 			(effects
 				(font
@@ -12721,7 +12721,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 219.71 44.45 90)
 			(effects
 				(font
@@ -12809,7 +12809,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 162.56 82.55 90)
 			(effects
 				(font
@@ -12895,7 +12895,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 167.005 37.465 0)
 			(effects
 				(font
@@ -12963,7 +12963,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 262.255 56.515 0)
 			(effects
 				(font
@@ -13033,7 +13033,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 219.71 82.55 90)
 			(effects
 				(font
@@ -13119,7 +13119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 338.455 132.715 0)
 			(effects
 				(font
@@ -13189,7 +13189,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 67.31 82.55 90)
 			(effects
 				(font
@@ -13277,7 +13277,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 143.51 82.55 90)
 			(effects
 				(font
@@ -13363,7 +13363,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 186.055 37.465 0)
 			(effects
 				(font
@@ -13431,7 +13431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 338.455 75.565 0)
 			(effects
 				(font
@@ -13630,7 +13630,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 281.305 75.565 0)
 			(effects
 				(font
@@ -13698,7 +13698,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB"
 			(at 52.705 75.565 0)
 			(effects
 				(font
@@ -13768,7 +13768,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 276.86 44.45 90)
 			(effects
 				(font
@@ -13856,7 +13856,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 181.61 101.6 90)
 			(effects
 				(font
@@ -13942,7 +13942,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "random-keyboard-parts:Molex-0548190589"
 			(at 316.23 203.2 0)
 			(effects
 				(font
@@ -14022,7 +14022,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 90.805 75.565 0)
 			(effects
 				(font
@@ -14090,7 +14090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 300.355 37.465 0)
 			(effects
 				(font
@@ -14160,7 +14160,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 181.61 44.45 90)
 			(effects
 				(font
@@ -14248,7 +14248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 120.65 240.03 0)
 			(effects
 				(font
@@ -14316,7 +14316,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 224.155 113.665 0)
 			(effects
 				(font
@@ -14384,7 +14384,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.75u_PCB"
 			(at 300.355 113.665 0)
 			(effects
 				(font
@@ -14452,7 +14452,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 338.455 113.665 0)
 			(effects
 				(font
@@ -14522,7 +14522,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 124.46 63.5 90)
 			(effects
 				(font
@@ -14607,7 +14607,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
 			(at 121.92 184.15 0)
 			(effects
 				(font
@@ -14683,7 +14683,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 181.61 63.5 90)
 			(effects
 				(font
@@ -14769,7 +14769,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 342.9 199.39 0)
 			(effects
 				(font
@@ -14840,7 +14840,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 162.56 44.45 90)
 			(effects
 				(font
@@ -14994,7 +14994,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 314.96 63.5 90)
 			(effects
 				(font
@@ -15082,7 +15082,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 276.86 120.65 90)
 			(effects
 				(font
@@ -15168,7 +15168,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 357.505 132.715 0)
 			(effects
 				(font
@@ -15236,7 +15236,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 338.455 56.515 0)
 			(effects
 				(font
@@ -15306,7 +15306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 110.49 240.03 0)
 			(effects
 				(font
@@ -15376,7 +15376,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 219.71 63.5 90)
 			(effects
 				(font
@@ -15530,7 +15530,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 181.61 82.55 90)
 			(effects
 				(font
@@ -15618,7 +15618,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 276.86 101.6 90)
 			(effects
 				(font
@@ -15706,7 +15706,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 238.76 63.5 90)
 			(effects
 				(font
@@ -15792,7 +15792,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 319.405 37.465 0)
 			(effects
 				(font
@@ -15926,7 +15926,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 262.255 132.715 0)
 			(effects
 				(font
@@ -15994,7 +15994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 186.055 113.665 0)
 			(effects
 				(font
@@ -16062,7 +16062,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 109.855 113.665 0)
 			(effects
 				(font
@@ -16130,7 +16130,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 109.855 37.465 0)
 			(effects
 				(font
@@ -16191,7 +16191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1uF"
 			(at 129.54 213.3662 0)
 			(effects
 				(font
@@ -16200,7 +16200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 127 212.09 0)
 			(effects
 				(font
@@ -16270,7 +16270,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 334.01 44.45 90)
 			(effects
 				(font
@@ -16358,7 +16358,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 143.51 44.45 90)
 			(effects
 				(font
@@ -16510,7 +16510,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 186.055 75.565 0)
 			(effects
 				(font
@@ -16578,7 +16578,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 300.355 132.715 0)
 			(effects
 				(font
@@ -16648,7 +16648,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 200.66 82.55 90)
 			(effects
 				(font
@@ -16734,7 +16734,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 147.955 113.665 0)
 			(effects
 				(font
@@ -16804,7 +16804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 100.33 240.03 0)
 			(effects
 				(font
@@ -16938,7 +16938,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 128.905 113.665 0)
 			(effects
 				(font
@@ -17006,7 +17006,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 205.105 113.665 0)
 			(effects
 				(font
@@ -17074,7 +17074,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 111.76 204.47 0)
 			(effects
 				(font
@@ -17144,7 +17144,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 143.51 120.65 90)
 			(effects
 				(font
@@ -17232,7 +17232,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 276.86 139.7 90)
 			(effects
 				(font
@@ -17318,7 +17318,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 186.055 94.615 0)
 			(effects
 				(font
@@ -17386,7 +17386,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 357.505 37.465 0)
 			(effects
 				(font
@@ -17456,7 +17456,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 295.91 82.55 90)
 			(effects
 				(font
@@ -17544,7 +17544,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 295.91 44.45 90)
 			(effects
 				(font
@@ -17632,7 +17632,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 257.81 101.6 90)
 			(effects
 				(font
@@ -17720,7 +17720,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 162.56 63.5 90)
 			(effects
 				(font
@@ -17808,7 +17808,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 238.76 82.55 90)
 			(effects
 				(font
@@ -17896,7 +17896,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 67.31 63.5 90)
 			(effects
 				(font
@@ -17982,7 +17982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 243.205 113.665 0)
 			(effects
 				(font
@@ -18052,7 +18052,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 257.81 63.5 90)
 			(effects
 				(font
@@ -18140,7 +18140,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 86.36 139.7 90)
 			(effects
 				(font
@@ -18226,7 +18226,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.25u_PCB"
 			(at 300.355 94.615 0)
 			(effects
 				(font
@@ -18296,7 +18296,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 162.56 101.6 90)
 			(effects
 				(font
@@ -18384,7 +18384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 238.76 44.45 90)
 			(effects
 				(font
@@ -18472,7 +18472,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 143.51 101.6 90)
 			(effects
 				(font
@@ -18558,7 +18558,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 224.155 75.565 0)
 			(effects
 				(font
@@ -18693,7 +18693,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 128.905 37.465 0)
 			(effects
 				(font
@@ -18763,7 +18763,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 124.46 82.55 90)
 			(effects
 				(font
@@ -18849,7 +18849,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 52.705 132.715 0)
 			(effects
 				(font
@@ -18983,7 +18983,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 243.205 37.465 0)
 			(effects
 				(font
@@ -19053,7 +19053,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 314.96 44.45 90)
 			(effects
 				(font
@@ -19139,7 +19139,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 90.805 37.465 0)
 			(effects
 				(font
@@ -19209,7 +19209,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 181.61 139.7 90)
 			(effects
 				(font
@@ -19297,7 +19297,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 124.46 44.45 90)
 			(effects
 				(font
@@ -19383,7 +19383,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 319.405 132.715 0)
 			(effects
 				(font
@@ -19451,7 +19451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 181.61 229.87 0)
 			(effects
 				(font
@@ -19519,7 +19519,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 262.255 37.465 0)
 			(effects
 				(font
@@ -19589,7 +19589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 130.81 240.03 0)
 			(effects
 				(font
@@ -19657,7 +19657,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 338.455 37.465 0)
 			(effects
 				(font
@@ -19727,7 +19727,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 314.96 120.65 90)
 			(effects
 				(font
@@ -19813,7 +19813,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 262.255 113.665 0)
 			(effects
 				(font
@@ -19881,7 +19881,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 71.755 75.565 0)
 			(effects
 				(font
@@ -20017,7 +20017,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 295.91 63.5 90)
 			(effects
 				(font
@@ -20169,7 +20169,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 71.755 94.615 0)
 			(effects
 				(font
@@ -20237,7 +20237,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 319.405 75.565 0)
 			(effects
 				(font
@@ -20305,7 +20305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 205.105 75.565 0)
 			(effects
 				(font
@@ -20375,7 +20375,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 105.41 139.7 90)
 			(effects
 				(font
@@ -20461,7 +20461,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 52.705 37.465 0)
 			(effects
 				(font
@@ -20531,7 +20531,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 295.91 139.7 90)
 			(effects
 				(font
@@ -20619,7 +20619,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 276.86 82.55 90)
 			(effects
 				(font
@@ -20707,7 +20707,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 181.61 120.65 90)
 			(effects
 				(font
@@ -20795,7 +20795,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 67.31 139.7 90)
 			(effects
 				(font
@@ -20883,7 +20883,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 67.31 101.6 90)
 			(effects
 				(font
@@ -20969,7 +20969,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 128.905 56.515 0)
 			(effects
 				(font
@@ -21039,7 +21039,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 238.76 120.65 90)
 			(effects
 				(font
@@ -21125,7 +21125,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_SKQG_WithStem"
 			(at 133.35 171.45 0)
 			(effects
 				(font
@@ -21195,7 +21195,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 105.41 120.65 90)
 			(effects
 				(font
@@ -21281,7 +21281,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.75u_PCB"
 			(at 52.705 94.615 0)
 			(effects
 				(font
@@ -21349,7 +21349,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 109.855 56.515 0)
 			(effects
 				(font
@@ -21417,7 +21417,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 113.03 176.53 0)
 			(effects
 				(font
@@ -21487,7 +21487,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 314.96 139.7 90)
 			(effects
 				(font
@@ -21575,7 +21575,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 67.31 44.45 90)
 			(effects
 				(font
@@ -21663,7 +21663,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 86.36 63.5 90)
 			(effects
 				(font
@@ -21751,7 +21751,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 372.11 63.5 90)
 			(effects
 				(font
@@ -21837,7 +21837,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 71.755 56.515 0)
 			(effects
 				(font
@@ -21905,7 +21905,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 224.155 56.515 0)
 			(effects
 				(font
@@ -21973,7 +21973,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 205.105 37.465 0)
 			(effects
 				(font
@@ -22041,7 +22041,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 109.855 75.565 0)
 			(effects
 				(font
@@ -22109,7 +22109,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB"
 			(at 90.805 132.715 0)
 			(effects
 				(font
@@ -22177,7 +22177,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 201.93 0)
 			(effects
 				(font
@@ -22247,7 +22247,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 105.41 44.45 90)
 			(effects
 				(font
@@ -22333,7 +22333,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 90.805 113.665 0)
 			(effects
 				(font
@@ -22401,7 +22401,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 357.505 56.515 0)
 			(effects
 				(font
@@ -22469,7 +22469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 281.305 56.515 0)
 			(effects
 				(font
@@ -22539,7 +22539,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 257.81 139.7 90)
 			(effects
 				(font
@@ -22627,7 +22627,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 67.31 120.65 90)
 			(effects
 				(font
@@ -22713,7 +22713,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 90.805 94.615 0)
 			(effects
 				(font
@@ -22781,7 +22781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 113.03 186.69 0)
 			(effects
 				(font
@@ -22851,7 +22851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 139.7 166.37 0)
 			(effects
 				(font
@@ -22921,7 +22921,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 105.41 82.55 90)
 			(effects
 				(font
@@ -23073,7 +23073,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_6.25u_PCB"
 			(at 167.005 132.715 0)
 			(effects
 				(font
@@ -23141,7 +23141,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 167.005 56.515 0)
 			(effects
 				(font
@@ -23211,7 +23211,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 257.81 44.45 90)
 			(effects
 				(font
@@ -23297,7 +23297,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.25u_PCB"
 			(at 52.705 113.665 0)
 			(effects
 				(font
@@ -23365,7 +23365,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 167.005 94.615 0)
 			(effects
 				(font
@@ -23499,7 +23499,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 167.005 75.565 0)
 			(effects
 				(font
@@ -23569,7 +23569,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 200.66 101.6 90)
 			(effects
 				(font
@@ -23655,7 +23655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 128.905 75.565 0)
 			(effects
 				(font
